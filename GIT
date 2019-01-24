@@ -1,0 +1,9 @@
+git init
+git add .
+git commit -m "In commit"
+git push master
+git pull
+git branch # it show all branches master. then we can merge it to master
+git checkout -b user # make a new branch
+git checkout master # go back to master br
+git merge user # unite user&master

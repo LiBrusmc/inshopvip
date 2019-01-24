@@ -1,0 +1,94 @@
+rails s -b $IP -p $PORT
+https://ide50-librus.c9users.io/
+
+create new site
+    rails new store
+
+
+bundle; bundle exec spring binstub --all
+1 st problem was nokogiri
+solved as
+    sudo apt-get install build-essential patch ruby-dev zlib1g-dev liblzma-dev
+    sudo apt-get update
+    sudo apt-get install build-essential
+    sudo apt-get install libgmp-dev
+    sudo apt-get install build-essential bison openssl libreadline6 libreadline6-dev curl git-core zlib1g zlib1g-dev libssl-dev libyaml-dev libxml2-dev autoconf libc6-dev ncurses-dev automake libtool
+    sudo apt-get install libgmp3-dev
+    sudo apt-get install libpq-dev
+    sudo gem install nokogiri -v '1.9.1'
+    sudo gem install nokogiri -v '1.10.1'
+
+bundle info [gemname]` to see where a bundled gem is installed
+
+Ruby Sass is deprecated and will be unmaintained as of 26 March 2019
+* If you use Sass as a command-line tool, we recommend using Dart Sass, the new
+  primary implementation: https://sass-lang.com/install
+
+* If you use Sass as a plug-in for a Ruby web framework, we recommend using the
+  sassc gem: https://github.com/sass/sassc-ruby#readme
+
+* For more details, please refer to the Sass blog:
+  http://sass.logdown.com/posts/7081811
+
+  sudo apt-get install imagemagick
+
+  gem 'bootstrap-sass', '~> 3.4.0'
+
+
+  i use
+
+  gem 'spree', github: 'spree/spree'
+  gem 'spree_auth_devise', github: 'spree/spree_auth_devise'
+  gem 'spree_gateway', github: 'spree/spree_gateway'
+
+  instead of
+
+  # gem 'spree', '~> 3.7.0.rc1'
+  # gem 'spree_auth_devise', '~> 3.4'
+  # gem 'spree_gateway', '~> 3.4'
+
+
+  also
+  group :development do
+    gem 'web-console'
+  end
+
+  gem install railties
+
+
+  # Use sqlite3 as the database for Active Record
+    gem 'sqlite3'
+
+
+
+  Post-install message from acts-as-taggable-on:
+When upgrading
+
+Re-run the migrations generator
+
+    rake acts_as_taggable_on_engine:install:migrations
+
+This will create any new migrations and skip existing ones
+Version 3.5.0 has a migration for mysql adapter
+Post-install message from paperclip:
+##################################################
+#  NOTE FOR UPGRADING FROM 4.3.0 OR EARLIER      #
+##################################################
+
+Paperclip is now compatible with aws-sdk-s3.
+
+If you are using S3 storage, aws-sdk-s3 requires you to make a few small
+changes:
+
+* You must set the `s3_region`
+* If you are explicitly setting permissions anywhere, such as in an initializer,
+  note that the format of the permissions changed from using an underscore to
+  using a hyphen. For example, `:public_read` needs to be changed to
+  `public-read`.
+
+For a walkthrough of upgrading from 4 to *5* (not 6) and aws-sdk >= 2.0 you can watch
+http://rubythursday.com/episodes/ruby-snack-27-upgrade-paperclip-and-aws-sdk-in-prep-for-rails-5
+
+
+admin
+https://ide50-librus.c9users.io/admin/users
