@@ -5,6 +5,165 @@ create new site
     rails new store
 
 
+506  rails new inshop
+  507  bundle; bundle exec spring binstub --all
+  508  cd inshop
+  509  bundle; bundle exec spring binstub --all
+  510  sudo apt-get install build-essential patch ruby-dev zlib1g-dev liblzma-dev
+  511  sudo apt-get update
+  512  sudo apt-get install build-essential
+  513  sudo apt-get install libgmp-dev
+  514  sudo apt-get install build-essential bison openssl libreadline6 libreadline6-dev curl git-core zlib1g zlib1g-dev libssl-dev libyaml-dev libxml2-dev autoconf libc6-dev ncurses-dev automake libtool
+  515  sudo apt-get install libgmp3-dev
+  516  sudo apt-get install libpq-dev
+  517  sudo gem install nokogiri -v '1.9.1'
+  518  bundle; bundle exec spring binstub --all
+  519  gem install nokogiri -v '1.10.1
+  520  sudo gem install nokogiri -v '1.10.1
+  521  bundle
+  522  sudo gem install nokogiri -v '1.10.1
+  523  sudo gem install nokogiri -v '1.10.1'
+  524  bundle; bundle exec spring binstub --all
+  525  rails -v
+  526  bundle install
+  527  bundle update
+  528  bundle; bundle exec spring binstub --all
+  529  bundle install
+  530  rm Gemfile.lock
+  531  bundle install
+  532  bundle update
+  533  bundle install
+  534  bundle update
+  535  bundle install
+  536  gem install railties
+  537  bundle install
+  538  bundle update
+  539  bundle install
+  540  bundle update kaminari
+  541  bundle install
+  542  bundle update
+  543  bundle install
+  544  bundle update
+  545  bundle; bundle exec spring binstub --all
+  546  rails s -b $IP -p $PORT
+  547  rails g spree:install --user_class=Spree::User
+  548  bundle; bundle exec spring binstub --all
+  549  rails g spree:install --user_class=Spree::User
+  550  rails s
+  551  sudo apt-get install imagemagick
+  552  rails s
+  553  cd project/inshop
+  554  rails generate simple_form:install --bootstrap
+  555  rails generate draper:install
+  556  rails generate devise:install
+  557  rails s -b $IP -p $PORT
+  558  rails g devise:views
+  559  rails generate rspec:install
+  560  sudo service postgresql start
+  561  sudo -u postgres psql
+  562  cd project/vip_shop
+  563  rails s -b $IP -p $PORT
+  564  sudo service postgresql start
+  565  rails s -b $IP -p $PORT
+  566  cd
+  567  cd project/inshop
+  568  rails s -b $IP -p $PORT
+  569  cd ..
+  570  cd vip_shop
+  571  rails s -b $IP -p $PORT
+  572  cd
+  573  cd pset8/mashup
+  574  git push heroku master
+  575  git add .
+  576  git commit -m 'ok'
+  577  git push heroku master
+  578  git add .
+  579  git commit -m 'ok'
+  580  git push heroku master
+  581  git add .
+  582  git commit -m 'ok'
+  583  git push heroku master
+  584  update50
+  585  cd project/inshop
+  586  git push heroku master
+  587  sudo service postgresql start
+  588  rails s -b $IP -p $PORT
+  589  sudo service postgresql start
+  590  cd project/inshop
+  591  bundle
+  592  bundle exec rails g spree_contact_us:install
+  593  rails s -b $IP -p $PORT
+  594  gem "spree_product_zoom", :git => "git://github.com/spree/spree_product_zoom.git"
+  595  bundle install
+  596  bundle exec rails g spree_globalize:install
+  597  bundle exec rails g spree_static_content:install
+  598  cd project/inshop
+  599  cp project/inshop/gems/spree_frontend-3.0.8/app/assets/stylesheets/spree/frontend/frontend_bootstrap.css.scss ~/workspace/myapp/vendor/assets/stylesheets/spree/frontend/
+  600  cp /usr/bin/ruby/gems/spree_frontend-3.0.8/app/assets/stylesheets/spree/frontend/frontend_bootstrap.css.scss ~/workspace/project/inshop/vendor/assets/stylesheets/spree/frontend/
+  601  cd
+  602  cd..
+  603  cd ..
+  604  ls
+  605  cd bin
+  606  ls
+  607  gem environment
+  608  cp /usr/local/rvm/gems/ruby-2.4.0/gems/spree_frontend-3.0.8/app/assets/stylesheets/spree/frontend/frontend_bootstrap.css.scss ~/workspace/project/inshop/vendor/assets/stylesheets/spree/frontend/
+  609  cd ..
+  610  ls
+  611  cd ..
+  612  ls
+  613  cd usr
+  614  ls
+  615  cd local/rvm
+  616  ls
+  617  cd gems
+  618  ls
+  619  cd ruby-2.4.0
+  620  ls
+  621  cd gems
+  622  ls
+  623  cd spree_extension-0.0.5
+  624  ls
+  625  cd
+  626  cd project/inshop
+  627  sudo service postgresql start
+  628  cd project/inshop
+  629  rails g spree:frontend:copy_views
+  630  rails s -b $IP -p $PORT
+  631  git remote -v
+  632  git status
+  633  git log
+  634  ls -al
+  635  cd project/inshop
+  636  git status
+  637  git init
+  638  git add .
+  639  git status
+  640  git log
+  641  git commit -m 'Initial commit'
+  642  git log
+  643  git branch
+  644  git remote add origin https://github.com/LiBrusmc/inshop
+  645  git branch
+  646  git log
+  647  git status
+  648  git push -u origin master
+  649  git config --get branch.master.remote
+  650  git add .
+  651  git status
+  652  git log
+  653  ls al
+  654  ls -al
+  655  git init
+  656  git add .
+  657  ls -al
+  658  git remote add origin https://github.com/LiBrusmc/inshop
+  659  git push -u origin master
+  660  git push -f origin master
+  661  git-sizer --verbose
+
+
+
 bundle; bundle exec spring binstub --all
 1 st problem was nokogiri
 solved as
@@ -92,3 +251,46 @@ http://rubythursday.com/episodes/ruby-snack-27-upgrade-paperclip-and-aws-sdk-in-
 
 admin
 https://ide50-librus.c9users.io/admin/users
+
+
+what i change
+  /project/inshop/app/views/spree/shared/_head.html.erb
+  title
+/project/inshop/app/views/spree/shared/_header.html.erb -> change to slim
+LOGO
+For example, to replace the Spree logo you would simply copy
+your logo to: your_app/vendor/assets/images/logo/spree_50.png.
+used https://github.com/spree-contrib/spree_contact_us
+add /project/inshop/vendor/assets/images/admin/logo.png
+ruby-2.4.0/gems/activesupport-5.2.2
+https://github.com/spree-contrib/spree_static_content
+
+<path_to_ruby>
+gem environment
+- GEM PATHS:
+
+nginx
+https://www.phusionpassenger.com/library/walkthroughs/deploy/ruby/ownserver/nginx/oss/trusty/deploy_app.html
+https://www.phusionpassenger.com/library/walkthroughs/deploy/ruby/digital_ocean/apache/oss/trusty/deploy_app.html
+
+add new model
+bin/rails g model services name
+migration
+bin/rails db:migrate
+
+
+git log
+commit d8020f5d6fe96fcae54e7444f9aa48bf2bda53ac (HEAD -> master)
+Author: Vitalii Petrus <librusmc@gmail.com>
+Date:   Thu Jan 24 08:09:32 2019 +0000
+
+    Initial commit
+
+git remote add origin https://github.com/LiBrusmc/inshop
+
+
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin https://github.com/LiBrusmc/inshop
+git push -u origin master
