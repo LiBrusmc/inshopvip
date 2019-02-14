@@ -1,0 +1,559 @@
+rails s -b $IP -p $PORT
+https://ide50-librus.c9users.io/
+sudo service postgresql start
+
+spreeactivestorage
+
+heroku rake db:migrate???????
+heroku run rake db:migrate
+
+push to heroku
+then add database
+
+there was error We're sorry, but something went wrong.
+
+Чтобы воссоздать базу данных без ничего:
+1) heroku run rake db:migrate
+Чтобы заполнить базу данных вашими исходными данными:
+---- don't!!!!2) heroku run rake db:seed
+
+you have to run
+
+bundle exec rake db:migrate
+bundle exec rake db:seed
+bundle exec rake spree_sample:load
+
+
+
+
+create new site
+    rails new store
+
+heroku run rake db:version
+
+
+
+506  rails new inshop
+  507  bundle; bundle exec spring binstub --all
+  508  cd inshop
+  509  bundle; bundle exec spring binstub --all
+  510  sudo apt-get install build-essential patch ruby-dev zlib1g-dev liblzma-dev
+  511  sudo apt-get update
+  512  sudo apt-get install build-essential
+  513  sudo apt-get install libgmp-dev
+  514  sudo apt-get install build-essential bison openssl libreadline6 libreadline6-dev curl git-core zlib1g zlib1g-dev libssl-dev libyaml-dev libxml2-dev autoconf libc6-dev ncurses-dev automake libtool
+  515  sudo apt-get install libgmp3-dev
+  516  sudo apt-get install libpq-dev
+  517  sudo gem install nokogiri -v '1.9.1'
+  518  bundle; bundle exec spring binstub --all
+  519  gem install nokogiri -v '1.10.1
+  520  sudo gem install nokogiri -v '1.10.1
+  521  bundle
+  522  sudo gem install nokogiri -v '1.10.1
+  523  sudo gem install nokogiri -v '1.10.1'
+  524  bundle; bundle exec spring binstub --all
+  525  rails -v
+  526  bundle install
+  527  bundle update
+  528  bundle; bundle exec spring binstub --all
+  529  bundle install
+  530  rm Gemfile.lock
+  531  bundle install
+  532  bundle update
+  533  bundle install
+  534  bundle update
+  535  bundle install
+  536  gem install railties
+  537  bundle install
+  538  bundle update
+  539  bundle install
+  540  bundle update kaminari
+  541  bundle install
+  542  bundle update
+  543  bundle install
+  544  bundle update
+  545  bundle; bundle exec spring binstub --all
+  546  rails s -b $IP -p $PORT
+  547  rails g spree:install --user_class=Spree::User
+  548  bundle; bundle exec spring binstub --all
+  549  rails g spree:install --user_class=Spree::User
+  550  rails s
+  551  sudo apt-get install imagemagick
+  552  rails s
+  553  cd project/inshop
+  554  rails generate simple_form:install --bootstrap
+  555  rails generate draper:install
+  556  rails generate devise:install
+  557  rails s -b $IP -p $PORT
+  558  rails g devise:views
+  559  rails generate rspec:install
+  560  sudo service postgresql start
+  561  sudo -u postgres psql
+  562  cd project/vip_shop
+  563  rails s -b $IP -p $PORT
+  564  sudo service postgresql start
+  565  rails s -b $IP -p $PORT
+  566  cd
+  567  cd project/inshop
+  568  rails s -b $IP -p $PORT
+  569  cd ..
+  570  cd vip_shop
+  571  rails s -b $IP -p $PORT
+  572  cd
+  573  cd pset8/mashup
+  574  git push heroku master
+  575  git add .
+  576  git commit -m 'ok'
+  577  git push heroku master
+  578  git add .
+  579  git commit -m 'ok'
+  580  git push heroku master
+  581  git add .
+  582  git commit -m 'ok'
+  583  git push heroku master
+  584  update50
+  585  cd project/inshop
+  586  git push heroku master
+  587  sudo service postgresql start
+  588  rails s -b $IP -p $PORT
+  589  sudo service postgresql start
+  590  cd project/inshop
+  591  bundle
+  592  bundle exec rails g spree_contact_us:install
+  593  rails s -b $IP -p $PORT
+  594  gem "spree_product_zoom", :git => "git://github.com/spree/spree_product_zoom.git"
+  595  bundle install
+  596  bundle exec rails g spree_globalize:install
+  597  bundle exec rails g spree_static_content:install
+  598  cd project/inshop
+  599  cp project/inshop/gems/spree_frontend-3.0.8/app/assets/stylesheets/spree/frontend/frontend_bootstrap.css.scss ~/workspace/myapp/vendor/assets/stylesheets/spree/frontend/
+  600  cp /usr/bin/ruby/gems/spree_frontend-3.0.8/app/assets/stylesheets/spree/frontend/frontend_bootstrap.css.scss ~/workspace/project/inshop/vendor/assets/stylesheets/spree/frontend/
+  601  cd
+  602  cd..
+  603  cd ..
+  604  ls
+  605  cd bin
+  606  ls
+  607  gem environment
+  608  cp /usr/local/rvm/gems/ruby-2.4.0/gems/spree_frontend-3.0.8/app/assets/stylesheets/spree/frontend/frontend_bootstrap.css.scss ~/workspace/project/inshop/vendor/assets/stylesheets/spree/frontend/
+  609  cd ..
+  610  ls
+  611  cd ..
+  612  ls
+  613  cd usr
+  614  ls
+  615  cd local/rvm
+  616  ls
+  617  cd gems
+  618  ls
+  619  cd ruby-2.4.0
+  620  ls
+  621  cd gems
+  622  ls
+  623  cd spree_extension-0.0.5
+  624  ls
+  625  cd
+  626  cd project/inshop
+  627  sudo service postgresql start
+  628  cd project/inshop
+  629  rails g spree:frontend:copy_views
+  630  rails s -b $IP -p $PORT
+  631  git remote -v
+  632  git status
+  633  git log
+  634  ls -al
+  635  cd project/inshop
+  636  git status
+  637  git init
+  638  git add .
+  639  git status
+  640  git log
+  641  git commit -m 'Initial commit'
+  642  git log
+  643  git branch
+  644  git remote add origin https://github.com/LiBrusmc/inshop
+  645  git branch
+  646  git log
+  647  git status
+  648  git push -u origin master
+  649  git config --get branch.master.remote
+  650  git add .
+  651  git status
+  652  git log
+  653  ls al
+  654  ls -al
+  655  git init
+  656  git add .
+  657  ls -al
+  658  git remote add origin https://github.com/LiBrusmc/inshop
+  659  git push -u origin master
+  660  git push -f origin master
+  661  git-sizer --verbose
+
+
+
+bundle; bundle exec spring binstub --all
+1 st problem was nokogiri
+solved as
+    sudo apt-get install build-essential patch ruby-dev zlib1g-dev liblzma-dev
+    sudo apt-get update
+    sudo apt-get install build-essential
+    sudo apt-get install libgmp-dev
+    sudo apt-get install build-essential bison openssl libreadline6 libreadline6-dev curl git-core zlib1g zlib1g-dev libssl-dev libyaml-dev libxml2-dev autoconf libc6-dev ncurses-dev automake libtool
+    sudo apt-get install libgmp3-dev
+    sudo apt-get install libpq-dev
+    sudo gem install nokogiri -v '1.9.1'
+    sudo gem install nokogiri -v '1.10.1'
+
+bundle info [gemname]` to see where a bundled gem is installed
+
+Ruby Sass is deprecated and will be unmaintained as of 26 March 2019
+* If you use Sass as a command-line tool, we recommend using Dart Sass, the new
+  primary implementation: https://sass-lang.com/install
+
+* If you use Sass as a plug-in for a Ruby web framework, we recommend using the
+  sassc gem: https://github.com/sass/sassc-ruby#readme
+
+* For more details, please refer to the Sass blog:
+  http://sass.logdown.com/posts/7081811
+
+  sudo apt-get install imagemagick
+
+  gem 'bootstrap-sass', '~> 3.4.0'
+
+
+  i use
+
+  gem 'spree', github: 'spree/spree'
+  gem 'spree_auth_devise', github: 'spree/spree_auth_devise'
+  gem 'spree_gateway', github: 'spree/spree_gateway'
+
+  instead of
+
+  # gem 'spree', '~> 3.7.0.rc1'
+  # gem 'spree_auth_devise', '~> 3.4'
+  # gem 'spree_gateway', '~> 3.4'
+
+
+  also
+  group :development do
+    gem 'web-console'
+  end
+
+  gem install railties
+
+
+  # Use sqlite3 as the database for Active Record
+    gem 'sqlite3'
+
+
+
+  Post-install message from acts-as-taggable-on:
+When upgrading
+
+Re-run the migrations generator
+
+    rake acts_as_taggable_on_engine:install:migrations
+
+This will create any new migrations and skip existing ones
+Version 3.5.0 has a migration for mysql adapter
+Post-install message from paperclip:
+##################################################
+#  NOTE FOR UPGRADING FROM 4.3.0 OR EARLIER      #
+##################################################
+
+Paperclip is now compatible with aws-sdk-s3.
+
+If you are using S3 storage, aws-sdk-s3 requires you to make a few small
+changes:
+
+* You must set the `s3_region`
+* If you are explicitly setting permissions anywhere, such as in an initializer,
+  note that the format of the permissions changed from using an underscore to
+  using a hyphen. For example, `:public_read` needs to be changed to
+  `public-read`.
+
+For a walkthrough of upgrading from 4 to *5* (not 6) and aws-sdk >= 2.0 you can watch
+http://rubythursday.com/episodes/ruby-snack-27-upgrade-paperclip-and-aws-sdk-in-prep-for-rails-5
+
+
+admin
+https://ide50-librus.c9users.io/admin/users
+
+
+what i change
+  /project/inshop/app/views/spree/shared/_head.html.erb
+  title
+/project/inshop/app/views/spree/shared/_header.html.erb -> change to slim
+LOGO
+For example, to replace the Spree logo you would simply copy
+your logo to: your_app/vendor/assets/images/logo/spree_50.png.
+used https://github.com/spree-contrib/spree_contact_us
+add /project/inshop/vendor/assets/images/admin/logo.png
+ruby-2.4.0/gems/activesupport-5.2.2
+https://github.com/spree-contrib/spree_static_content
+
+<path_to_ruby>
+gem environment
+- GEM PATHS:
+
+nginx
+https://www.phusionpassenger.com/library/walkthroughs/deploy/ruby/ownserver/nginx/oss/trusty/deploy_app.html
+https://www.phusionpassenger.com/library/walkthroughs/deploy/ruby/digital_ocean/apache/oss/trusty/deploy_app.html
+
+add new model
+bin/rails g model services name
+migration
+bin/rails db:migrate
+
+
+git log
+commit d8020f5d6fe96fcae54e7444f9aa48bf2bda53ac (HEAD -> master)
+Author: Vitalii Petrus <librusmc@gmail.com>
+Date:   Thu Jan 24 08:09:32 2019 +0000
+
+    Initial commit
+
+git remote add origin https://github.com/LiBrusmc/inshop
+
+
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin https://github.com/LiBrusmc/inshop
+git push -u origin master
+
+
+
+
+
+deploying to heroku
+
+692  wget -O- https://toolbelt.heroku.com/install-ubuntu.sh | sh
+  693  heroku create
+  694  git push heroku master
+  695  bundle update --bundler
+  696  git push heroku master
+  697  gem update bundler
+  698  gem install bundler
+  699  cd project/inshop
+  700  heroku login
+  701  git init
+  702  heroku git:remote -a vipinshop
+  703  heroku login -i
+  704  heroku git:remote -a vipinshop
+  705  git add .
+  706  git commit -am "initial commit with thin"
+
+
+  712  heroku buildpacks:set https://github.com/bundler/heroku-buildpack-bundler2
+  713  git push heroku master
+
+  720  bundle exec rake assets:precompile db:migrate RAILS_ENV=production
+  721  heroku run rake db:migrate
+  722  sudo service postgresql status
+  723  sudo service postgresql start
+  724  sudo service postgresql status
+  725  bin/rails db:migrate
+  726  rake db:migrate
+  727  bundle exec rake secret
+  728  rake db:migrate
+  729  rake db:create
+  730  rake db:migrate
+  731  heroku run rake db:migrate
+  732  eroku logs
+  733  heroku logs
+  734  bundle install
+  735  git push heroku master
+  736  heroku addons
+  737  heroku addons:create heroku-postgresql:vipinshop
+  738  heroku pg:promote
+
+  741  bundle exec rake secret
+
+  760  cd project/inshop
+  761  git init
+  762  heroku git:remote -a vipinshop
+  763  git add .
+  764  git commit -am "initcommit+pg"
+  765  git push heroku master
+  766  heroku addons
+  767  heroku addons:create heroku-postgresql:vipinshop
+  768  heroku pg:info
+  769  which psql
+  770  heroku pg:info
+  771  psql
+  772  heroku pg:psql
+  773  heroku addons
+  774  git init
+  775  heroku git:remote -a vipinshop
+  776  git add .
+  777  git commit -am "initcommit+pg"
+  778  git push heroku master
+  779  git add .
+  780  git init
+  781  git add .
+  782  git commit -m "Procfile"
+  783  git push heroku master
+  784  heroku ps
+  785  heroku logs
+  786  heroku run rake db:version
+  787  node --version
+  788  npm --version
+  789  git --version
+  790  heroku logs --tail
+  791  heroku local web
+  792  heroku run bash
+  793  heroku config
+  794
+  795  heroku run rake db:migrate
+  796  heroku run rake db:seed---------------------no
+  797
+  799  heroku open
+  800  heroku run rake spree_sample:load-----------no
+  801
+  802  heroku pg:info
+  803  heroku run rake db:version
+  804  heroku pg:backups:capture
+  805  heroku pg:backups:download
+  806  history
+
+
+
+    820  git init
+  821  git add Gemfile config/environments/production.rb
+  822  heroku labs:enable user-env-compile -a vipinshop
+  823  git push heroku master
+  824  git add Gemfile config/environments/production.rb
+  825  git push heroku master
+  826  git init
+  827  git add Gemfile config/environments/production.rb
+  828  git commit -m "rails12factor + action_dispatch"
+  829  git push heroku master
+  830  bundle install
+  831  git init
+  832  git add Gemfile Gemfile.lock config/environments/production.rb
+  833  git commit -m "rails12factor + action_dispatch"
+  834  git push heroku master
+  835  heroku labs:enable user-env-compile -a yourapp
+  836  heroku labs:enable user-env-compile -a vipinshop
+  837  heroku labs:enable user-env-compile -a rails
+  838  git init
+  839  git add /app/controllers/application_controller.rb
+  840  git add app/controllers/application_controller.rb
+  841  git commit -m "application_controller.rb"
+  842  git push heroku master
+  843  heroku config
+  844  heroku config path
+  845  heroku config --help
+  846  heroku config:get
+  847  heroku config:get PATH
+  848  heroku config:get PATH=>
+  849  RAILS_ENV=production bundle exec rake assets:precompile
+  850  sudo service postgresql start
+  851  RAILS_ENV=production bundle exec rake assets:precompile
+  852  cd project/inshop
+  853  git init
+  854  git add config/storage.yml
+  855  git commit -m "storage.yml+s3"
+  856  git push heroku master
+  857  git add config/environments/production.rb
+  858  git commit -m "production.rb amazon"
+  859  git push heroku master
+  860  bundle install
+  861  git init
+  862  git add Gemfile Gemfile.lock
+  863  git commit -m "add aws-sdk toGemfile"
+  864  git push heroku master
+  865  heroku logs
+  866  RAILS_ENV=production bundle exec rake assets:precompile
+  867  heroku run bundle exec rake db:migrate
+  868  rails s -b $IP -p $PORT
+  869  sudo service postgresql start
+  870  cd project/inshop
+  871  rails active_storage:install
+  872  rails s -b $IP -p $PORT
+  873  cd project/inshop
+  874  heroku rails active_storage:install
+  875  rails active_storage:install
+  876  sudo service postgresql start
+  877  rails active_storage:install
+  878  rails s -b $IP -p $PORT
+  879  cd project/inshop
+  880  rails credentials:edit
+  881  heroku rails credentials:edit
+  882  bin / rails active_storage: install
+  883  rails active_storage: install
+  884  rails active_storage:install
+  885  bin/rails active_storage install
+  886  rake --tasks
+  887  rake active_storage:install
+  888  run rake active_storage:install
+  889  heroku run rake active_storage:install
+  890  bin/rails db:migrate
+  891  rails credentials:edit
+  892  heroku run rails credentials:edit
+  893  rake credentials:edit
+  894  rails credentials:edit
+  895  cd
+  896  cd inshop+thin
+  897  sudo service postgresql start
+  898  rails s -b $IP -p $PORT
+  899  rails -v
+  900  ruby -v
+  901  postgresql -v
+  902  postgresql-client -v
+  903  psql
+  904  sudo service postgresql start
+  905  psql
+  906  cd project/inshop
+  907  cd insop+thin
+  908  cd inshop+thin
+  909  git init
+  910  bundle install
+  911  history
+
+
+
+  Running: rake assets:clean
+remote: -----> Detecting rails configuration
+remote:
+remote: ###### WARNING:
+remote:
+remote:        Detecting rails configuration failed
+remote:        set HEROKU_DEBUG_RAILS_RUNNER=1 to debug
+remote:
+remote: ###### WARNING:
+remote:
+remote:        We detected that some binary dependencies required to
+remote:        use all the preview features of Active Storage are not
+remote:        present on this system.
+remote:
+remote:        For more information please see:
+remote:          https://devcenter.heroku.com/articles/active-storage-on-heroku
+remote:
+remote:
+remote:
+remote: -----> Discovering process types
+remote:        Procfile declares types     -> release, web
+remote:        Default types for buildpack -> console, rake
+remote:
+remote: -----> Compressing...
+remote:        Done: 84.6M
+remote: -----> Launching...
+remote:  !     Release command declared: this new release will not be available until the command succeeds.
+remote:        Released v17
+remote:        https://vipinshop.herokuapp.com/ deployed to Heroku
+remote:
+remote: Verifying deploy... done.
+remote: Running release command...
+remote:
+remote:    (1.0ms)  SELECT pg_try_advisory_lock(5606020413225993285)
+remote:    (4.8ms)  SELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC
+remote:   ActiveRecord::InternalMetadata Load (3.7ms)  SELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2  [["key", "environment"], ["LIMIT", 1]]
+remote:    (0.9ms)  BEGIN
+remote:    (0.8ms)  COMMIT
+remote:    (0.9ms)  SELECT pg_advisory_unlock(5606020413225993285)
+remote: Waiting for release.... done.
+To https://git.heroku.com/vipinshop.git
+   19da709..7b2ea83  master -> master
